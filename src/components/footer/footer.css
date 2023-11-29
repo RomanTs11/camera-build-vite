@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-width: 1280px;
+}
+
+.footer_row {
+    align-items: left;
+}
+
+.footer_ad li  {
+    list-style-type: none;
+}
+
+.footer_ad li a {
+    color: #9A9AC6;
+}
+
+.footer_social ul {
+    display: flex;
+    align-items: center;
+    
+    padding: 20px;
+}
+.footer_social li {
+    list-style-type: none;
+}
+.footer_social li a img{
+    color: #9A9AC6;
+}

@@ -1,0 +1,63 @@
+.header {
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-width: 1280px;
+}
+
+.header_row {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_nav ul {
+    
+    display: flex;
+    align-items: center;
+    
+    padding: 0px;
+}
+
+.header_nav li {
+
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.header_nav a {
+    color: #7575E2;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    color:grey;
+}
+
+.basket {
+    padding-right: 30px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    color:#7575E2;
+    max-width: 44px;
+    max-height: 44px;
+}
+
+.basket::before {
+    content: ''; /* Обязательно должно быть пустым */
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px; /* Высота прямоугольника */
+    background-color: #e70909; /* Цвет прямоугольника */
+    z-index: 1; /* Поместим прямоугольник за основной контент */
+    position:static;
+}
