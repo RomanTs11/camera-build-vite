@@ -15,12 +15,12 @@ function Header () {
             <ul>
               <li><a href='#!'> Каталог</a></li>
               <li><a href='#!'> Гарантии</a></li>
-              <li><a href='#!'> Дотсавка </a></li>
+              <li><a href='#!'> Доставка </a></li>
               <li><a href='#!'> О Компании</a></li>
             </ul>
           </nav>
           <div className='header_search'>
-            <img src={searchImg} alt='корзина' /> Поиск по сайту
+            <img src={searchImg} alt='поиск' /> Поиск по сайту
           </div>
           <div className='basket'>
             <img src={basketImg} alt='корзина' />

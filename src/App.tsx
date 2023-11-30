@@ -1,14 +1,14 @@
 import Header from './components/header/header';
 import Banner from './components/banner/banner';
 import Footer from './components/footer/footer';
-import Items from './components/items/items';
+import Catalogue from './components/catalogue/catalogue';
 
 function App() {
   return(
     <div className='App'>
       <Header />
       <Banner />
-      <Items />
+      <Catalogue />
       <Footer />
     </div>
   );

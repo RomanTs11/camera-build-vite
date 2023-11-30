@@ -43,21 +43,14 @@
 }
 
 .basket {
-    padding-right: 30px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color:chartreuse;
+    border-radius: 150px;
     color:#7575E2;
-    max-width: 44px;
+    max-width: 444px;
     max-height: 44px;
 }
 
-.basket::before {
-    content: ''; /* Обязательно должно быть пустым */
-    top: 0;
-    left: 0;
-    width: 44px;
-    height: 44px; /* Высота прямоугольника */
-    background-color: #e70909; /* Цвет прямоугольника */
-    z-index: 1; /* Поместим прямоугольник за основной контент */
-    position:static;
-}
