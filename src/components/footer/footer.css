@@ -14,10 +14,13 @@
 
 
 .footer_social {
-    margin-right: 25px;
-    margin-left: 25px;
-    vertical-align: middle; /* Выровнять элементы по вертикали */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.footer_ad ul {
+    padding: 0;
 }
 
 .footer_ad li  {
@@ -29,18 +32,23 @@
     color: #9A9AC6;
 }
 
+
+
+
 .footer_social_links ul {
     display: flex;
     align-items: center;
-    
-    padding: 20px;
+    padding: 20px 0;
 }
+
 .footer_social_links li {
     list-style-type: none;
+    color: #9A9AC6;
 }
 .footer_social_links li a {
     color: #9A9AC6;
 }
+
 .footer_nav {
     color: white;
     font-weight: bold;

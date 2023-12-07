@@ -1,0 +1,22 @@
+.Banner {
+    position: relative;
+  }
+  
+  .banner__info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white; 
+  }
+  
+  .btn {
+    width: 119px;
+    height: 40px;
+    top: 256px;
+    left: 142px;
+    padding: 10px 20px; 
+    border-radius: 8px;
+    gap: 10px;
+  }

@@ -1,7 +1,4 @@
 import footerLogoImg from './../../../markup/img/sprite/icon-logo-mono.svg';
-import vkLogoImg from './../../../markup/img/sprite/icon-vk.svg';
-import pintererstLogoImg from './../../../markup/img/sprite/icon-pinterest.svg';
-import redditLogoImg from './../../../markup/img/sprite/icon-reddit.svg';
 import './footer.css';
 
 
@@ -22,20 +19,33 @@ function Footer() {
             </div>
             <div className='footer_social_links'>
               <ul>
-                <li><a href='#!'></a>
-                  <img src={vkLogoImg} alt='vk' />
+                <li>
+                  <a href='#!'>
+                    <svg width={20} height={20} aria-hidden="true">
+                      <use xlinkHref="#icon-vk" />
+                    </svg>
+                  </a>
                 </li>
-                <li><a href='#!'></a>
-                  <img src={pintererstLogoImg} alt='pinterest' />
+                <li>
+                  <a href='#!'>
+                    <svg width={20} height={20} aria-hidden="true">
+                      <use xlinkHref="#icon-pinterest" />
+                    </svg>
+                  </a>
                 </li>
-                <li><a href='#!'></a>
-                  <img src={redditLogoImg} alt='reddit' />
+                <li>
+                  <a href='#!'>
+                    <svg width={20} height={20} aria-hidden="true">
+                      <use xlinkHref="#icon-reddit" />
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className='footer_nav'> Навигация
+          <div className='footer_nav'>
+            <p className="footer__title">Поддержка</p>
             <ul>
               <li><a href='#!'>Каталог</a></li>
               <li><a href='#!'>Гарантии</a></li>
@@ -43,14 +53,16 @@ function Footer() {
               <li><a href='#!'>О компании</a></li>
             </ul>
           </div>
-          <div className='footer_resources'> Ресурсы
+          <div className='footer_resources'>
+            <p className="footer__title">Ресурсы</p>
             <ul>
               <li><a href='#!'>Курсы операторов</a></li>
               <li><a href='#!'>Блог</a></li>
               <li><a href='#!'>Сообщество</a></li>
             </ul>
           </div>
-          <div className='footer_support'> Поддержка
+          <div className='footer_support'>
+            <p className="footer__title">Поддержка</p>
             <ul>
               <li><a href='#!'>FAQ</a></li>
               <li><a href='#!'>Задать вопрос</a></li>
